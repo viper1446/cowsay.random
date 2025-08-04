@@ -7,7 +7,7 @@ or see the fortune-mod package as a dependencie.
 
 ## Installation
 
-If we assume you are running part of your software from your ~/.bin directory:
+If we assume you are running part of your software from your ~/.bin directory already:
 
 `curl -O https://raw.githubusercontent.com/viper1446/cowsay.random/refs/heads/main/cowsay.random $HOME/.bin`<br/>
 <br/>
