@@ -1,0 +1,9 @@
+#! /bin/bash
+ls /usr/share/cowsay/cows > $HOME/.cows
+count=$(wc -l < $HOME/.cows)
+girth=$(($count - 1))
+cow=$((1 + $RANDOM % $girth))p
+choosencow=$(sed -n $cow $HOME/.cows)
+cowsay -f $choosencow $(fortune)
+rm $HOME/.cows
+
